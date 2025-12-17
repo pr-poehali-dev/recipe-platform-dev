@@ -209,7 +209,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center gap-3 mb-6">
             <Icon name="ChefHat" size={40} className="text-primary" />
-            <h1 className="text-4xl font-bold text-primary">КулинариУМ</h1>
+            <h1 className="text-4xl font-bold text-primary">Вкуснотека</h1>
           </div>
           
           <div className="relative mb-6">
