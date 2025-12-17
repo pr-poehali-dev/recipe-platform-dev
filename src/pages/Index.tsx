@@ -210,7 +210,6 @@ const Index = () => {
           <div className="flex items-center gap-3 mb-6">
             <Icon name="ChefHat" size={40} className="text-[#FF7F50]" />
             <h1 className="text-5xl font-extrabold gradient-logo" style={{ 
-              WebkitTextStroke: '1px #FFD700',
               textShadow: '2px 2px 4px rgba(0,0,0,0.1), 0 0 20px rgba(255,215,0,0.3)'
             }}>
               Вкуснотека
