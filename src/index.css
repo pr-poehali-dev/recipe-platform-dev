@@ -111,4 +111,13 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
   }
+
+  .gradient-logo {
+    background: linear-gradient(135deg, #ff7f50 0%, #ffd700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 2px 4px 8px rgba(255, 127, 80, 0.3);
+    filter: drop-shadow(0 2px 4px rgba(255, 215, 0, 0.4));
+  }
 }

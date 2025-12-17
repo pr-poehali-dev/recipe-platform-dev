@@ -208,8 +208,13 @@ const Index = () => {
       <header className="bg-white shadow-sm sticky top-0 z-10 border-b">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center gap-3 mb-6">
-            <Icon name="ChefHat" size={40} className="text-primary" />
-            <h1 className="text-4xl font-bold text-primary">Вкуснотека</h1>
+            <Icon name="ChefHat" size={40} className="text-[#FF7F50]" />
+            <h1 className="text-5xl font-extrabold gradient-logo" style={{ 
+              WebkitTextStroke: '1px #FFD700',
+              textShadow: '2px 2px 4px rgba(0,0,0,0.1), 0 0 20px rgba(255,215,0,0.3)'
+            }}>
+              Вкуснотека
+            </h1>
           </div>
           
           <div className="relative mb-6">
